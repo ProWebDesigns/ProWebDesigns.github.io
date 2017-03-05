@@ -48,6 +48,10 @@ section {
 	text-align: center;
 }
 
+#welcome p {
+	text-align: justify;
+}
+
 footer .container {
 	display: flex;
 	flex-wrap: wrap;
