@@ -1,5 +1,5 @@
 body {
-	background: darkorange;
+	background: #ff9933;
 	font-family: courier;
 }
 
@@ -61,7 +61,7 @@ nav li li {
 	max-height: 0;
 	overflow: hidden;
 	transition: all .6s;
-	width: 200px;
+	width: 250px;
 }
 
 nav li:hover > ul > li {
