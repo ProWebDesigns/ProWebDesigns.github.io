@@ -1,0 +1,80 @@
+
+.header {
+    background: #273B47;
+    min-width: 280px;
+    position: auto;
+    top: 0;
+    width: 100%;
+}
+
+.header-logo img {
+    height: 30px;
+    padding: 15px 0;
+    width: 95px;
+}
+
+.menu-nav {
+    display: block;   
+    font-size: 18px;
+    font-weight: bold;
+    float: right;
+    margin: 3px; 
+}
+
+/*a {
+    color: -webkit-link;
+    text-decoration: underline;
+    cursor: auto;
+}*/
+
+.barra {
+    border-right: 2px solid #fff;   
+}
+
+.menu-nav ul li a  {
+ 
+    color: #fff;
+    list-style-type: disc;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+.header .wrap {
+    max-width: none;
+    padding: 0 10px;
+}
+
+
+.inicia{
+    float: right;    
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 0 15px;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 1em;
+    position: relative;
+}
+
+a:hover {
+    border-top: 5px solid green;
+
+}
+
+header, main, menu, nav, li, button {
+    display: inline-block;
+}
+
+body {
+     
+    font-family: 'Lato', sans-serif;
+ 
+ 
+}
