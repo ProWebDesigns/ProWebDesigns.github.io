@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Galeria de Imagenes Responsive HTML y CSS</title>
+		<link rel="icon" href="images/icon.jpg" alt="Icon.jpg" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		
+	</head>
+
+	<body>
+		<h1>Galeria de images con efecto lightbox</h1>
+		<ul class="galeria">
+			<li><a href="#img1"><img src="images/imagen1.jpg" alt="imagen1"></a></li>
+			<li><a href="#img2"><img src="images/imagen2.jpg" alt="imagen2"></a></li>
+			<li><a href="#img3"><img src="images/imagen3.jpg" alt="imagen3"></a></li>
+			<li><a href="#img4"><img src="images/imagen4.jpg" alt="imagen4"></a></li>
+		</ul>
+		
+		<div class="modal" id="img1">
+			<h3>Paisaje 1</h3>
+			<div class="imagen">
+				<a href="#img4">&#60</a>
+				<a href="#img2"><img src="images/imagen1.jpg"></a>
+				<a href="#img2">&#62</a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+		<div class="modal" id="img2">
+			<h3>Paisaje 2</h3>
+			<div class="imagen">
+				<a href="#img1">&#60</a>
+				<a href="#img3"><img src="images/imagen2.jpg"></a>
+				<a href="#img3">&#62</a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+		<div class="modal" id="img3">
+			<h3>Paisaje 3</h3>
+			<div class="imagen">
+				<a href="#img2">&#60</a>
+				<a href="#img4"><img src="images/imagen3.jpg"></a>
+				<a href="#img4">&#62</a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+		<div class="modal" id="img4">
+			<h3>Paisaje 4</h3>
+			<div class="imagen">
+				<a href="#img3">&#60</a>
+				<a href="#img1"><img src="images/imagen4.jpg"></a>
+				<a href="#img1">&#62</a>
+			</div>
+			<a class="cerrar" href="">X</a>
+		</div>
+
+
+<!-- 		<script>
+			(function(){
+				setInterval(
+					function(){
+					document.location.reload();
+				}, 600);
+			})();
+		</script>
+ -->		
+	</body>
+</html>
+  
