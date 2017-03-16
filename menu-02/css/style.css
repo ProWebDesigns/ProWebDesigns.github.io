@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*max-width: 1300px;*/
+	/*background: #fffffa;*/
+	font-family: courier;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+.page {
+	background: lightgray;
+	/*border: 2px solid black;*/
+	margin: auto;
+	max-width: 85%;
+	height: 1200px;
+	padding: 20px;
+}
+
+.page h4 {
+	padding: 20px 0 20px 0;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.page p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+header {
+	width: 100%;
+}
+
+header nav {
+	width: 90%;
+	max-width: 1200px;
+	margin: 20px auto;
+	background: #00435C;
+
+}
+
+.menu-bar {
+	display: none;
+
+}
+
+
+header nav ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li {
+	float: left;
+}
+
+
+header nav ul li a {
+	color: #fff;
+	background: rgba(0,67,92,1);
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+
+.icon-left {
+	margin-right: 20px;
+}
+
+.icon-right {
+	float: right;
+}
+
+header nav ul li a:hover {
+	background: #037e8c;
+
+}
+
+
+@media screen and (max-width: 880px) {
+	header nav {
+		width: 300px;
+		max-height: 100%;
+		margin: 0;
+		position: fixed;
+		left: -100%;
+	}
+
+	header nav ul li {
+		display: block;
+		float: none;
+		border-bottom: 1px solid rgba(255,255,255,0.3);
+		
+	}
+
+	.menu-bar {
+		display: block;
+		width: 100%;
+		padding: 20px;
+		background: #00435C;		
+		
+	}
+
+	.menu-bar .btn-menu {
+		display: block;
+		padding-right: 40px;
+		font-weight: bold;
+		font-size: 25px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+
+	.menu-bar a {
+		color: #fff;
+		text-decoration: none;
+
+	}
+}
