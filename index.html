@@ -11,29 +11,30 @@
 		<title>Menú Desplegable</title>
 		<!-- <link rel="icon" href="images/icon-30.png" /> -->
 		<link rel="icon" href="images/icon-30.png" alt="../images/icon.jpg" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">		
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<meta name="viewport" content="width=device, user-escalable=no, initial-scale=1, maximum-scale=720" />
-		
 
 	</head>
 
 	<body>
+		<div class="page">
 		<header>
 
 			<nav>
 				<ul class="menu"> 
-					<li><a href="">Home</a></li>
-					<li><a href="">Portfolio</a>
+					<li><a href="#"><i class="icon-left fa fa-home"></i>Home</a></li>
+					<li><a href="#"><i class="icon-left fa fa-briefcase"></i>Portfolio<i class="icon-right fa fa-chevron-down"></i></a>
 						<ul>
-							<li><a href="">Menús</a>
+							<li><a href=""><i class="icon-left fa fa-navicon"></i>Menús<i class="icon-right fa fa-chevron-down"></i></a>
 								<ul>
 									<li><a href="menu-01/index.html" target="_blank">Menú Sencillo</a></li>
-									<li><a href="menu-02/index.html" target="_blank">Menú Multinivel</a></li>
+									<li><a href="menu-02/index.html" target="_blank">Menú de Adaptable</a></li>
 									<li><a href="menu-03/index.html" target="_blank">Menú de Acordeon</a></li>
 									<li><a href="">Sub Item 4</a></li>
 								</ul>
 							</li>
-							<li><a href="">Sites</a>
+							<li><a href=""><i class="icon-left fa fa-paper-plane"></i>Sites<i class="icon-right fa fa-chevron-down"></i></a>
 								<ul>
 									<li><a href="real-estate/index.html" target="_blank">Real Estate</a></li>
 									<li><a href="mascotas/index.html" target="_blank">Mascotas</a></li>
@@ -44,10 +45,10 @@
 							</li>
 						</ul>
 					</li>
-					<li><a href="">Contacts</a>
+					<li><a href=""><i class="icon-left fa fa-envelope"></i>Contact us</a>
 						<ul>
 							<li><a href="langs.html" target="_blank">Languages PHP</a></li>
-							<li><a href="">Item 2</a>
+							<li><a href="">Item 2<i class="icon-right fa fa-chevron-down"></i></a>
 								<ul>
 									<li><a href="">Sub Item 1</a></li>
 									<li><a href="">Sub Item 2</a></li>
@@ -56,20 +57,35 @@
 								</ul>
 							</li>
 						</ul>
-					<li><a href="">About</a></li>
+					<li><a href=""><i class="icon-left fa fa-users"></i>About us</a></li>
 				</ul>
+
 			</nav>
-			
 		</header>
 
+		<div class="doc">
+			<h1>Nuestros Servicios</h1>
+			<div class="services">
+				<h2>Diseño Web</h2>
+				<p>Diseño Web corporativo, tanto para autónomos y pymes, como portales corporativos y extranets.</p>
+			</div>
+			
+			<div class="services">
+				<h2>Imagen Corporativa</h2>
+				<p>Diseño gráfico y suministro de material de imprenta. Diseñamos la imagen corporativa de su empresa.</p>
+			</div>
 
-		<h1>Menú principal del sitio</h1>
-		<p>Este es un menú transparente multi-niveles y que soporte <b><i>Responsive</i></b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem voluptate numquam laborum, id sint nobis. Laborum nisi labore sapiente corporis quos eligendi minima, a officiis eveniet inventore, expedita, similique necessitatibus!</p>
-		<p>Minima tenetur veritatis aliquid fugit facilis earum commodi sint repellat amet fugiat molestiae minus, modi ipsam mollitia, ut, beatae assumenda aspernatur eveniet voluptate provident. Ducimus beatae optio quisquam non illo.</p>
-		<p>Nam ullam deserunt itaque possimus, nulla pariatur voluptatibus blanditiis velit molestias quia vel natus modi fugiat iusto esse laborum praesentium illum nihil libero, eius voluptates maiores placeat, consectetur. Nisi, ipsa.</p>
-		<p>Iure debitis id quis, nemo rerum sint doloremque quia iusto nostrum eum consectetur, aliquid eaque a doloribus quae non excepturi ad modi repellat, facilis porro obcaecati! Harum, odit. Totam, inventore.</p>
-	
-		
+			<div class="services">
+				<h2>Soluciones de Alojamiento</h2>
+				<p>Alojamos y mantenemos su web en servidores especiales de acuerdo a las necesidades de su proyecto.</p>
+			</div>
+
+			<div class="services">
+				<h2>Soporte Técnico</h2>
+				<p>Soporte técnico y mantenimiento de su web, siempre a su disposición para cualquier duda o incidencia.</p>
+			</div>
+		</div>
+		</div>
 		
 <!-- 		<script>
 			(function(){
@@ -78,10 +94,10 @@
 					document.location.reload();
 				}, 600);
 			})();
-		</script>
+		</script> -->
 		
 		
-	 -->
+	
 	</body>
 </html>
   

@@ -69,11 +69,15 @@ a {
 .container-menu .menu {
 	width: 100%;
 	display: none;
+	position: absolute;
 	
 }
 
-.container-menu ul {
+.menu > li{
 	list-style: none;
+		position: relative;
+		width: 20%;
+		min-width: 300px;
 }
 
 .container-menu .menu li a {
@@ -82,13 +86,16 @@ a {
 	display: block;
 	padding: 15px 20px;
 }
+
+.container-menu .menu li {
+}
+	
 .container-menu .menu li a:hover {
 	background: #1A95D5;
 }
 
 .container-menu .menu ul {
 	display: none;
-	
 }
 
 .container-menu .menu ul li a {
@@ -112,11 +119,19 @@ a {
 		z-index: 50;
 	}
 
+	.menu li {
+		width: 100%;
+	}
+
 	.btn-menu {
 		display: block;
+	
 	}
 
 	.container-menu .menu {
 		display: none;
+		
 	}
+
+	.
 }

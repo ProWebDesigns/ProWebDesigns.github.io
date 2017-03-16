@@ -21,4 +21,9 @@ $(document).ready(function(){
 	$('.btn-menu').click(function(){
 		$('.container-menu .menu').slideToggle();
 	});
+
+	$('.menu li ul li a').click(function(){
+		// body...
+		window.location.href = $(this).attr("href");
+	});
 });
