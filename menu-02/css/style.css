@@ -58,7 +58,9 @@ header nav ul {
 }
 
 header nav ul li {
-	float: left;
+	/*Usar float: left solo si no llevan sub-menus*/;
+	display: inline-block;
+	position: relative;
 }
 
 
@@ -70,21 +72,22 @@ header nav ul li a {
 	text-decoration: none;
 }
 
+header nav ul li a:hover {
+	background: #037e8c;
+
+}
+
 .icon-left {
 	margin-right: 20px;
 }
 
 .icon-right {
 	float: right;
-}
-
-header nav ul li a:hover {
-	background: #037e8c;
-
+	margin-left: 20px;
 }
 
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 950px) {
 	header nav {
 		width: 300px;
 		max-height: 100%;
