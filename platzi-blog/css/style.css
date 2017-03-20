@@ -1,3 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+     
+    font-family: 'Lato', sans-serif;
+ 
+}
+
+header, main, menu, nav, li, button {
+    display: inline-block;
+}
+
+a:hover {
+    border-top: 5px solid green;
+
+}
 
 .header {
     background: #273B47;
@@ -63,18 +83,98 @@
     position: relative;
 }
 
-a:hover {
-    border-top: 5px solid green;
-
+.promoted {
+    background: #efefef;
 }
 
-header, main, menu, nav, li, button {
+.promoted-post .post-image {
+    height: auto;
+    max-height: 390px;
+    min-height: 300px;
+}
+
+.promoted-post {
+    margin-bottom: 2em;
+    position: relative;
+}
+.post-image {
+    height: 215px;
+    margin: 0;
+    overflow: hidden;
+}
+
+img {
+    border: 0;
+}
+
+.promoted-post .promoted-data {
+    background: rgba(255,255,255,0.8);
+    bottom: 40px;
+    left: 20px;
+    padding: 1.5em;
+    position: absolute;
+    width: 480px;
+    height: 150px;
+}
+.cover {
+    padding: 0 15px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.post-title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #b7b7b7;
+    color: #515151;
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+    /*font-size: 18px;*/
+}    
+
+.padre {
+    width: 1000px;
+    margin: 20px auto;
+    /*padding: 10px 40px;*/
+    display: flex;
+    -webkit-justify-content: center;
+            justify-content: center;
+    /*width: 1200px;*/
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    background: #fff;
+/*    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;*/
+}
+
+.hijo { 
+    margin: 10px;
+    /*padding: 10px;*/
+    width: 300px;
+    background: peru;
+    border: 1px solid #111;
+    height: 200px;
     display: inline-block;
 }
 
-body {
-     
-    font-family: 'Lato', sans-serif;
- 
- 
+@media screen and (max-width: 480px) {
+    .promoted {
+        width: 460px;
+    }
+
+    .hijo {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .padre {
+        width: 620px;
+    }
+
+    .hijo {
+        width: 40%;
+    }
 }
